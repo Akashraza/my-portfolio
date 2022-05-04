@@ -1,0 +1,125 @@
+.about_section{
+    position: relative;
+    width: 100%;
+    padding: 50px 80px;
+}
+.about_img_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_box_{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.about_box_::after{
+    content: '';
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#dfef99,transparent,#9da47e);
+    border-radius: 5px;
+    z-index: -1;
+    transform: rotate(77deg);
+    transition: 0.7s;
+}
+.about_box_:hover::after{
+    transform: rotate(90deg);
+}
+.about_box_ img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.same_h{
+    color: #fff;
+    font-size: 14px;
+}
+.same_h_t{
+    font-size: 25px;
+    color: #dfef99;
+}
+.about_box_d{
+    padding: 15px 0;
+}
+.ab_box{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #dfef99;
+    border-radius: 5px;
+}
+.icons_a{
+    font-size: 25px;
+    color: #333;
+}
+.ab_h{
+    font-size: 30px;
+    color: #333;
+    padding: 5px 0;
+}
+.ab_h_t{
+    font-size: 14px;
+    color: #333;
+}
+.disc{
+    padding: 25px 0 15px;
+}
+.disc p{
+    color: #fff;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 991px) {
+    .about_section{
+        padding: 120px 40px 0px;
+      }
+      .about_box_ img{
+        width: auto;
+      }
+      .about_box_d {
+        padding: 90px 0 15px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .about_section {
+        padding: 80px 20px 0px;
+    }
+    .same_h_t{
+        text-align: center;
+    }
+    .same_h{
+        text-align: center;
+    }
+    .about_img_box{
+        padding-top: 40px;
+    }
+    .disc {
+        padding: 25px 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .disc p{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .about_box_{
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,71 @@
+.portfolio_b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 80px;
+}
+.portfolio_b_{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 20px;
+    background: #dfef99;
+    border-radius: 10px;
+
+
+}
+.portfolio_b_ h5{
+    color: #333;
+    font-size: 14px;
+    padding: 20px 0px 15px 0px;
+}
+.p_img{
+    width: 100%;
+    border-radius: 10px;
+}
+.p_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.p_b{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+.p_b .git{
+    border: 1px solid #333;
+    color: #333;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: transparent;
+    margin-right: 10px;
+}
+.live{
+    border: 1px solid #333;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: #333; 
+}
+.p_b button{
+    font-size: 15px;
+}
+@media screen and (max-width:991px) {
+    .portfolio_b{
+        padding: 45px 40px 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .portfolio_b {
+        padding: 45px 20px 0;
+       
+    }
+    .portfolio_b_{
+        margin-bottom: 15px;
+    }
+}

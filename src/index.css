@@ -1,13 +1,65 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Lobster&family=Open+Sans:wght@400;500&family=Poppins&family=Roboto&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+}
+body {
+ 
+   /* background: url('../src/assets/texture.jpg'); */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --color-white:#fff;
+  --color-black:#000;
+  
+}
+
+@media screen and (max-width: 1199px) {
+  .ab_box{
+    margin-bottom: 20px;
+  }
+  .order_1{
+    order: 1;
+  }
+  .order_2{
+    order: 2;
+  }
+  .order_3{
+    order: 3;
+    margin-top: 20px;
+  }
+  .p_100px {
+    padding: 10px 20px;
+}
+.contact_f {
+  padding: 10px 0px;
+}
+.left_nav {
+  
+  bottom: 0%;
+  right: 2.5%;
+}
+.about_box_{
+  width: 250px;
+  height: 250px;
+}
+}
+@media screen and (max-width: 991px) {
+  .first_section{
+    padding-top: 20px;
+  }
+  .or_m{
+    order: 2;
+  }
+  .or_m0{
+    order: 1;
+    padding-bottom: 30px;
+  }
+  
+
 }
